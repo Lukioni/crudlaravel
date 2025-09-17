@@ -25,17 +25,22 @@ Este projeto usa **Laravel (PHP)** no backend e **Vite (npm)** no frontend. O ba
 ### 1) Clonar o repositório
 SSH (recomendado):  
 git clone https://github.com/Lukioni/crudlaravel.git
+
 cd Sua_Pasta  
 
 ### Observação
 Vá no arquivo do windows c:/php/php.ini
 e retire o comentario das seguintes linhas:
+
 extension=fileinfo
+
 extension=pdo_sqlite
+
 extension=sqlite3
 
 ### 2) Instalar dependências
 composer install (ou composer install -o --noscripts -vvv --profile pra instalação mais rapida) 
+
 npm install  
 
 ### 3) Configurar o .env
